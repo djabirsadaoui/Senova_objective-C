@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350676691C65ED1900952C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350676681C65ED1900952C8D /* main.m */; };
+		3506766C1C65ED1900952C8D /* DJSDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506766B1C65ED1900952C8D /* DJSDelegate.m */; };
+		3506766F1C65ED1900952C8D /* DJSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506766E1C65ED1900952C8D /* DJSMasterViewController.m */; };
+		350676721C65ED1900952C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350676701C65ED1900952C8D /* Main.storyboard */; };
+		350676741C65ED1900952C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350676731C65ED1900952C8D /* Assets.xcassets */; };
+		350676771C65ED1900952C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350676751C65ED1900952C8D /* LaunchScreen.storyboard */; };
+		350676821C65ED1900952C8D /* Senova_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350676811C65ED1900952C8D /* Senova_AppTests.m */; };
+		3506768D1C65ED1900952C8D /* Senova_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506768C1C65ED1900952C8D /* Senova_AppUITests.m */; };
+		3506769C1C65ED9800952C8D /* DJSHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506769B1C65ED9800952C8D /* DJSHttpManager.m */; };
+		3506769F1C65EDE100952C8D /* DJSApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506769E1C65EDE100952C8D /* DJSApiManager.m */; };
+		C85CB1FC72577D3C87ED7A82 /* libPods-Senova_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F3C2F2691BA3EC21B1241 /* libPods-Senova_App.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3506767E1C65ED1900952C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3506765C1C65ED1900952C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350676631C65ED1900952C8D;
+			remoteInfo = Senova_App;
+		};
+		350676891C65ED1900952C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3506765C1C65ED1900952C8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350676631C65ED1900952C8D;
+			remoteInfo = Senova_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		350676641C65ED1900952C8D /* Senova_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Senova_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350676681C65ED1900952C8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3506766A1C65ED1900952C8D /* DJSDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSDelegate.h; sourceTree = "<group>"; };
+		3506766B1C65ED1900952C8D /* DJSDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSDelegate.m; sourceTree = "<group>"; };
+		3506766D1C65ED1900952C8D /* DJSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSMasterViewController.h; sourceTree = "<group>"; };
+		3506766E1C65ED1900952C8D /* DJSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSMasterViewController.m; sourceTree = "<group>"; };
+		350676711C65ED1900952C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350676731C65ED1900952C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350676761C65ED1900952C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350676781C65ED1900952C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3506767D1C65ED1900952C8D /* Senova_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Senova_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350676811C65ED1900952C8D /* Senova_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Senova_AppTests.m; sourceTree = "<group>"; };
+		350676831C65ED1900952C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350676881C65ED1900952C8D /* Senova_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Senova_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3506768C1C65ED1900952C8D /* Senova_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Senova_AppUITests.m; sourceTree = "<group>"; };
+		3506768E1C65ED1900952C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3506769A1C65ED9800952C8D /* DJSHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSHttpManager.h; sourceTree = "<group>"; };
+		3506769B1C65ED9800952C8D /* DJSHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSHttpManager.m; sourceTree = "<group>"; };
+		3506769D1C65EDE100952C8D /* DJSApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSApiManager.h; sourceTree = "<group>"; };
+		3506769E1C65EDE100952C8D /* DJSApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSApiManager.m; sourceTree = "<group>"; };
+		86912F0800199842423A07C1 /* Pods-Senova_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senova_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Senova_App/Pods-Senova_App.debug.xcconfig"; sourceTree = "<group>"; };
+		BA3DF5FAD94F8F82E57A1D04 /* Pods-Senova_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senova_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Senova_App/Pods-Senova_App.release.xcconfig"; sourceTree = "<group>"; };
+		F22F3C2F2691BA3EC21B1241 /* libPods-Senova_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Senova_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350676611C65ED1900952C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85CB1FC72577D3C87ED7A82 /* libPods-Senova_App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506767A1C65ED1900952C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350676851C65ED1900952C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D496641275649BCD2BACDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86912F0800199842423A07C1 /* Pods-Senova_App.debug.xcconfig */,
+				BA3DF5FAD94F8F82E57A1D04 /* Pods-Senova_App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16868A19B14B2052CA50592F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22F3C2F2691BA3EC21B1241 /* libPods-Senova_App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3506765B1C65ED1900952C8D = {
+			isa = PBXGroup;
+			children = (
+				350676661C65ED1900952C8D /* Senova_App */,
+				350676801C65ED1900952C8D /* Senova_AppTests */,
+				3506768B1C65ED1900952C8D /* Senova_AppUITests */,
+				350676651C65ED1900952C8D /* Products */,
+				11D496641275649BCD2BACDA /* Pods */,
+				16868A19B14B2052CA50592F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		350676651C65ED1900952C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350676641C65ED1900952C8D /* Senova_App.app */,
+				3506767D1C65ED1900952C8D /* Senova_AppTests.xctest */,
+				350676881C65ED1900952C8D /* Senova_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350676661C65ED1900952C8D /* Senova_App */ = {
+			isa = PBXGroup;
+			children = (
+				3506766A1C65ED1900952C8D /* DJSDelegate.h */,
+				3506766B1C65ED1900952C8D /* DJSDelegate.m */,
+				3506766D1C65ED1900952C8D /* DJSMasterViewController.h */,
+				3506769D1C65EDE100952C8D /* DJSApiManager.h */,
+				3506769E1C65EDE100952C8D /* DJSApiManager.m */,
+				3506769A1C65ED9800952C8D /* DJSHttpManager.h */,
+				3506769B1C65ED9800952C8D /* DJSHttpManager.m */,
+				3506766E1C65ED1900952C8D /* DJSMasterViewController.m */,
+				350676701C65ED1900952C8D /* Main.storyboard */,
+				350676731C65ED1900952C8D /* Assets.xcassets */,
+				350676751C65ED1900952C8D /* LaunchScreen.storyboard */,
+				350676781C65ED1900952C8D /* Info.plist */,
+				350676671C65ED1900952C8D /* Supporting Files */,
+			);
+			path = Senova_App;
+			sourceTree = "<group>";
+		};
+		350676671C65ED1900952C8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				350676681C65ED1900952C8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		350676801C65ED1900952C8D /* Senova_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				350676811C65ED1900952C8D /* Senova_AppTests.m */,
+				350676831C65ED1900952C8D /* Info.plist */,
+			);
+			path = Senova_AppTests;
+			sourceTree = "<group>";
+		};
+		3506768B1C65ED1900952C8D /* Senova_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3506768C1C65ED1900952C8D /* Senova_AppUITests.m */,
+				3506768E1C65ED1900952C8D /* Info.plist */,
+			);
+			path = Senova_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350676631C65ED1900952C8D /* Senova_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350676911C65ED1900952C8D /* Build configuration list for PBXNativeTarget "Senova_App" */;
+			buildPhases = (
+				19902FEC6D4E6131F321ADEB /* Check Pods Manifest.lock */,
+				350676601C65ED1900952C8D /* Sources */,
+				350676611C65ED1900952C8D /* Frameworks */,
+				350676621C65ED1900952C8D /* Resources */,
+				A8578E69422033D9A5BD3D57 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Senova_App;
+			productName = Senova_App;
+			productReference = 350676641C65ED1900952C8D /* Senova_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3506767C1C65ED1900952C8D /* Senova_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350676941C65ED1900952C8D /* Build configuration list for PBXNativeTarget "Senova_AppTests" */;
+			buildPhases = (
+				350676791C65ED1900952C8D /* Sources */,
+				3506767A1C65ED1900952C8D /* Frameworks */,
+				3506767B1C65ED1900952C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3506767F1C65ED1900952C8D /* PBXTargetDependency */,
+			);
+			name = Senova_AppTests;
+			productName = Senova_AppTests;
+			productReference = 3506767D1C65ED1900952C8D /* Senova_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350676871C65ED1900952C8D /* Senova_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350676971C65ED1900952C8D /* Build configuration list for PBXNativeTarget "Senova_AppUITests" */;
+			buildPhases = (
+				350676841C65ED1900952C8D /* Sources */,
+				350676851C65ED1900952C8D /* Frameworks */,
+				350676861C65ED1900952C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3506768A1C65ED1900952C8D /* PBXTargetDependency */,
+			);
+			name = Senova_AppUITests;
+			productName = Senova_AppUITests;
+			productReference = 350676881C65ED1900952C8D /* Senova_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3506765C1C65ED1900952C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = djabir;
+				TargetAttributes = {
+					350676631C65ED1900952C8D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3506767C1C65ED1900952C8D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 350676631C65ED1900952C8D;
+					};
+					350676871C65ED1900952C8D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 350676631C65ED1900952C8D;
+					};
+				};
+			};
+			buildConfigurationList = 3506765F1C65ED1900952C8D /* Build configuration list for PBXProject "Senova_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3506765B1C65ED1900952C8D;
+			productRefGroup = 350676651C65ED1900952C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350676631C65ED1900952C8D /* Senova_App */,
+				3506767C1C65ED1900952C8D /* Senova_AppTests */,
+				350676871C65ED1900952C8D /* Senova_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350676621C65ED1900952C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350676771C65ED1900952C8D /* LaunchScreen.storyboard in Resources */,
+				350676741C65ED1900952C8D /* Assets.xcassets in Resources */,
+				350676721C65ED1900952C8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3506767B1C65ED1900952C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350676861C65ED1900952C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19902FEC6D4E6131F321ADEB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8578E69422033D9A5BD3D57 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Senova_App/Pods-Senova_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350676601C65ED1900952C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3506766F1C65ED1900952C8D /* DJSMasterViewController.m in Sources */,
+				3506766C1C65ED1900952C8D /* DJSDelegate.m in Sources */,
+				350676691C65ED1900952C8D /* main.m in Sources */,
+				3506769F1C65EDE100952C8D /* DJSApiManager.m in Sources */,
+				3506769C1C65ED9800952C8D /* DJSHttpManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350676791C65ED1900952C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350676821C65ED1900952C8D /* Senova_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350676841C65ED1900952C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3506768D1C65ED1900952C8D /* Senova_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3506767F1C65ED1900952C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350676631C65ED1900952C8D /* Senova_App */;
+			targetProxy = 3506767E1C65ED1900952C8D /* PBXContainerItemProxy */;
+		};
+		3506768A1C65ED1900952C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350676631C65ED1900952C8D /* Senova_App */;
+			targetProxy = 350676891C65ED1900952C8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		350676701C65ED1900952C8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350676711C65ED1900952C8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		350676751C65ED1900952C8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350676761C65ED1900952C8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3506768F1C65ED1900952C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350676901C65ED1900952C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350676921C65ED1900952C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86912F0800199842423A07C1 /* Pods-Senova_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Senova_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		350676931C65ED1900952C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3DF5FAD94F8F82E57A1D04 /* Pods-Senova_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Senova_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		350676951C65ED1900952C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Senova_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senova_App.app/Senova_App";
+			};
+			name = Debug;
+		};
+		350676961C65ED1900952C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Senova_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senova_App.app/Senova_App";
+			};
+			name = Release;
+		};
+		350676981C65ED1900952C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Senova_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Senova_App;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		350676991C65ED1900952C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Senova_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Senova_App;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3506765F1C65ED1900952C8D /* Build configuration list for PBXProject "Senova_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3506768F1C65ED1900952C8D /* Debug */,
+				350676901C65ED1900952C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350676911C65ED1900952C8D /* Build configuration list for PBXNativeTarget "Senova_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350676921C65ED1900952C8D /* Debug */,
+				350676931C65ED1900952C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350676941C65ED1900952C8D /* Build configuration list for PBXNativeTarget "Senova_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350676951C65ED1900952C8D /* Debug */,
+				350676961C65ED1900952C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350676971C65ED1900952C8D /* Build configuration list for PBXNativeTarget "Senova_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350676981C65ED1900952C8D /* Debug */,
+				350676991C65ED1900952C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3506765C1C65ED1900952C8D /* Project object */;
+}
