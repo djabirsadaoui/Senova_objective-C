@@ -11,13 +11,13 @@
 		3506766C1C65ED1900952C8D /* DJSDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506766B1C65ED1900952C8D /* DJSDelegate.m */; };
 		3506766F1C65ED1900952C8D /* DJSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506766E1C65ED1900952C8D /* DJSMasterViewController.m */; };
 		350676721C65ED1900952C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350676701C65ED1900952C8D /* Main.storyboard */; };
-		350676741C65ED1900952C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350676731C65ED1900952C8D /* Assets.xcassets */; };
 		350676771C65ED1900952C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350676751C65ED1900952C8D /* LaunchScreen.storyboard */; };
 		350676821C65ED1900952C8D /* Senova_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 350676811C65ED1900952C8D /* Senova_AppTests.m */; };
 		3506768D1C65ED1900952C8D /* Senova_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506768C1C65ED1900952C8D /* Senova_AppUITests.m */; };
 		3506769C1C65ED9800952C8D /* DJSHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506769B1C65ED9800952C8D /* DJSHttpManager.m */; };
 		3506769F1C65EDE100952C8D /* DJSApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506769E1C65EDE100952C8D /* DJSApiManager.m */; };
 		35912B0C1C6648E9009CCF17 /* DJSTemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35912B0B1C6648E9009CCF17 /* DJSTemperatureView.m */; };
+		35912B0E1C665BAB009CCF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35912B0D1C665BAB009CCF17 /* Assets.xcassets */; };
 		C85CB1FC72577D3C87ED7A82 /* libPods-Senova_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F3C2F2691BA3EC21B1241 /* libPods-Senova_App.a */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,6 @@
 		3506766D1C65ED1900952C8D /* DJSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSMasterViewController.h; sourceTree = "<group>"; };
 		3506766E1C65ED1900952C8D /* DJSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSMasterViewController.m; sourceTree = "<group>"; };
 		350676711C65ED1900952C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		350676731C65ED1900952C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		350676761C65ED1900952C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		350676781C65ED1900952C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3506767D1C65ED1900952C8D /* Senova_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Senova_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +60,7 @@
 		3506769E1C65EDE100952C8D /* DJSApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSApiManager.m; sourceTree = "<group>"; };
 		35912B0A1C6648E9009CCF17 /* DJSTemperatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSTemperatureView.h; sourceTree = "<group>"; };
 		35912B0B1C6648E9009CCF17 /* DJSTemperatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSTemperatureView.m; sourceTree = "<group>"; };
+		35912B0D1C665BAB009CCF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86912F0800199842423A07C1 /* Pods-Senova_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senova_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Senova_App/Pods-Senova_App.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3DF5FAD94F8F82E57A1D04 /* Pods-Senova_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senova_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Senova_App/Pods-Senova_App.release.xcconfig"; sourceTree = "<group>"; };
 		F22F3C2F2691BA3EC21B1241 /* libPods-Senova_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Senova_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +134,7 @@
 		350676661C65ED1900952C8D /* Senova_App */ = {
 			isa = PBXGroup;
 			children = (
-				350676731C65ED1900952C8D /* Assets.xcassets */,
+				35912B0D1C665BAB009CCF17 /* Assets.xcassets */,
 				3506769D1C65EDE100952C8D /* DJSApiManager.h */,
 				3506769E1C65EDE100952C8D /* DJSApiManager.m */,
 				3506766A1C65ED1900952C8D /* DJSDelegate.h */,
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				350676771C65ED1900952C8D /* LaunchScreen.storyboard in Resources */,
-				350676741C65ED1900952C8D /* Assets.xcassets in Resources */,
+				35912B0E1C665BAB009CCF17 /* Assets.xcassets in Resources */,
 				350676721C65ED1900952C8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

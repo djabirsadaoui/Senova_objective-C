@@ -42,7 +42,12 @@ NSURL *baseURL;
     
 }
 -(void)didRecieveData:(id)question{
-    NSLog(@"good hell");
+   NSDictionary *jsonObject = [NSJSONSerialization JSONObjectWithData:question options: NSJSONReadingMutableContainers error: nil];
+    NSArray *array = jsonObject[@"data"];
+    NSDictionary *entity = [array lastObject];
+    NSString *temp = [NSString stringWithFormat:@"%@ C°",entity[@"value"]];
+    [[_temperatureView tempAppart] setText:temp];
+    
 }
 -(void)didFailRequestData:(NSError *)error{
     
