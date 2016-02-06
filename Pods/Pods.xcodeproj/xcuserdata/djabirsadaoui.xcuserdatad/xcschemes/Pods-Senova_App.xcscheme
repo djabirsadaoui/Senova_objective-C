@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9243C37557332ED43D489C1E"
+               BlueprintIdentifier = "E7A5C7C17A7FBF7397B66129"
                BuildableName = "libPods-Senova_App.a"
                BlueprintName = "Pods-Senova_App"
                ReferencedContainer = "container:Pods.xcodeproj">

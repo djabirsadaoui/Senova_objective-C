@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B407F7C33AC04BB07AD1A71710CFF42A64F03902",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "815AE768179BDDA31AE9BCC7C9F956390573BEAF" : 0,
+    "B407F7C33AC04BB07AD1A71710CFF42A64F03902" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E33D34D5-8B15-48C7-8840-D5C702290C8F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "815AE768179BDDA31AE9BCC7C9F956390573BEAF" : "",
+    "B407F7C33AC04BB07AD1A71710CFF42A64F03902" : "Senova_App\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Senova_App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Senova_App.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:djabirsadaoui\/LeMonde.fr-RSS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "815AE768179BDDA31AE9BCC7C9F956390573BEAF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:djabirsadaoui\/Senova.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B407F7C33AC04BB07AD1A71710CFF42A64F03902"
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 # platform :ios, '6.0'
 
 target 'Senova_App' do
+
 pod 'RestKit', '~> 0.20.0'
 end
 
