@@ -1,6 +1,7 @@
 # Senova
 ### Description :
-### KeyWords :
+This app is helping multifamilly bulding residents to interact with their service provider for the central heating of the building. It uses Intent's APIs to determine when there is a problem and how to solve it.
+### KeyWords : AFNetworking, SocketRequet, UIKit,RestKit, cocoaPods.
 ### screenShots :
 ![screen1](https://cloud.githubusercontent.com/assets/13332603/12873118/e22dfdd2-cdb5-11e5-981c-52744b1e528d.png)
 ![screen2](https://cloud.githubusercontent.com/assets/13332603/12873119/e3d179c0-cdb5-11e5-810c-7f5f4a1ebc0a.png)
