@@ -18,6 +18,9 @@
 		3506769F1C65EDE100952C8D /* DJSApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506769E1C65EDE100952C8D /* DJSApiManager.m */; };
 		35912B0C1C6648E9009CCF17 /* DJSTemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35912B0B1C6648E9009CCF17 /* DJSTemperatureView.m */; };
 		35912B0E1C665BAB009CCF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35912B0D1C665BAB009CCF17 /* Assets.xcassets */; };
+		35912B111C6678F8009CCF17 /* DJSWaitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35912B101C6678F8009CCF17 /* DJSWaitViewController.m */; };
+		35912B141C668CF1009CCF17 /* DJSQuesitonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35912B131C668CF1009CCF17 /* DJSQuesitonViewController.m */; };
+		35E329131C6758EE00843355 /* informationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E329121C6758EE00843355 /* informationView.m */; };
 		C85CB1FC72577D3C87ED7A82 /* libPods-Senova_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F22F3C2F2691BA3EC21B1241 /* libPods-Senova_App.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,12 @@
 		35912B0A1C6648E9009CCF17 /* DJSTemperatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSTemperatureView.h; sourceTree = "<group>"; };
 		35912B0B1C6648E9009CCF17 /* DJSTemperatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSTemperatureView.m; sourceTree = "<group>"; };
 		35912B0D1C665BAB009CCF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35912B0F1C6678F8009CCF17 /* DJSWaitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSWaitViewController.h; sourceTree = "<group>"; };
+		35912B101C6678F8009CCF17 /* DJSWaitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSWaitViewController.m; sourceTree = "<group>"; };
+		35912B121C668CF1009CCF17 /* DJSQuesitonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSQuesitonViewController.h; sourceTree = "<group>"; };
+		35912B131C668CF1009CCF17 /* DJSQuesitonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSQuesitonViewController.m; sourceTree = "<group>"; };
+		35E329111C6758EE00843355 /* informationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = informationView.h; sourceTree = "<group>"; };
+		35E329121C6758EE00843355 /* informationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = informationView.m; sourceTree = "<group>"; };
 		86912F0800199842423A07C1 /* Pods-Senova_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senova_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Senova_App/Pods-Senova_App.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3DF5FAD94F8F82E57A1D04 /* Pods-Senova_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Senova_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Senova_App/Pods-Senova_App.release.xcconfig"; sourceTree = "<group>"; };
 		F22F3C2F2691BA3EC21B1241 /* libPods-Senova_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Senova_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,10 +150,16 @@
 				3506766B1C65ED1900952C8D /* DJSDelegate.m */,
 				3506769A1C65ED9800952C8D /* DJSHttpManager.h */,
 				3506769B1C65ED9800952C8D /* DJSHttpManager.m */,
-				35912B0A1C6648E9009CCF17 /* DJSTemperatureView.h */,
-				35912B0B1C6648E9009CCF17 /* DJSTemperatureView.m */,
 				3506766D1C65ED1900952C8D /* DJSMasterViewController.h */,
 				3506766E1C65ED1900952C8D /* DJSMasterViewController.m */,
+				35912B121C668CF1009CCF17 /* DJSQuesitonViewController.h */,
+				35912B131C668CF1009CCF17 /* DJSQuesitonViewController.m */,
+				35912B0A1C6648E9009CCF17 /* DJSTemperatureView.h */,
+				35912B0B1C6648E9009CCF17 /* DJSTemperatureView.m */,
+				35912B0F1C6678F8009CCF17 /* DJSWaitViewController.h */,
+				35912B101C6678F8009CCF17 /* DJSWaitViewController.m */,
+				35E329111C6758EE00843355 /* informationView.h */,
+				35E329121C6758EE00843355 /* informationView.m */,
 				350676781C65ED1900952C8D /* Info.plist */,
 				350676751C65ED1900952C8D /* LaunchScreen.storyboard */,
 				350676701C65ED1900952C8D /* Main.storyboard */,
@@ -248,6 +263,7 @@
 				TargetAttributes = {
 					350676631C65ED1900952C8D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MRV7A6DFL3;
 					};
 					3506767C1C65ED1900952C8D = {
 						CreatedOnToolsVersion = 7.2;
@@ -345,11 +361,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3506766F1C65ED1900952C8D /* DJSMasterViewController.m in Sources */,
+				35E329131C6758EE00843355 /* informationView.m in Sources */,
 				3506766C1C65ED1900952C8D /* DJSDelegate.m in Sources */,
 				350676691C65ED1900952C8D /* main.m in Sources */,
 				3506769F1C65EDE100952C8D /* DJSApiManager.m in Sources */,
 				3506769C1C65ED9800952C8D /* DJSHttpManager.m in Sources */,
 				35912B0C1C6648E9009CCF17 /* DJSTemperatureView.m in Sources */,
+				35912B141C668CF1009CCF17 /* DJSQuesitonViewController.m in Sources */,
+				35912B111C6678F8009CCF17 /* DJSWaitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +510,9 @@
 			baseConfigurationReference = 86912F0800199842423A07C1 /* Pods-Senova_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Senova_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,7 +524,9 @@
 			baseConfigurationReference = BA3DF5FAD94F8F82E57A1D04 /* Pods-Senova_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Senova_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sadaoui.Senova-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";

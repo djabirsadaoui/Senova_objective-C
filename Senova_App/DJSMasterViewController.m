@@ -7,7 +7,7 @@
 //
 
 #import "DJSMasterViewController.h"
-
+#import "DJSWaitViewController.h"
 @interface DJSMasterViewController ()
 
 @end
@@ -24,6 +24,8 @@ NSURL *baseURL;
     baseURL = [NSURL URLWithString:@"https://apidalkia.hubintent.com/api/datahub/v1"];
      NSDictionary *params = @{@"client_secret":CLIENT_SECRET,@"grant_type":@"client_credentials", @"client_id":ID_CLIENT};
     [_httpManager getToken:params path:@"token"];
+
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(void)didRecieveToken:(id)token{
@@ -40,6 +42,20 @@ NSURL *baseURL;
 }
 -(void)didRecieveQuestion:(id)question{
     
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"waitViewt"]) {
+        DJSWaitViewController *controller = (DJSWaitViewController*)[segue destinationViewController];
+        int index =[_stateSegement selectedSegmentIndex];
+        if (index==1) {
+            [controller setState:@"Confortable"];
+        }else if (index==0){
+            [controller setState:@"Trop froid"];
+        }else{
+            [controller setState:@"Trop chaud"];
+        }
+    }
+      
 }
 -(void)didRecieveData:(id)question{
    NSDictionary *jsonObject = [NSJSONSerialization JSONObjectWithData:question options: NSJSONReadingMutableContainers error: nil];
@@ -62,5 +78,16 @@ NSURL *baseURL;
 }
 
 - (IBAction)informeTechnicien:(id)sender {
+}
+- (IBAction)changeState:(UISegmentedControl *)sender {
+    int index =[_stateSegement selectedSegmentIndex];
+    if (index==1) {
+        [_motionImage setImage:[UIImage imageNamed:@"smile"]];
+    }else if (index==0){
+        [_motionImage setImage:[UIImage imageNamed:@"froid"]];
+    }else{
+        [_motionImage setImage:[UIImage imageNamed:@"froid"]];
+    }
+
 }
 @end

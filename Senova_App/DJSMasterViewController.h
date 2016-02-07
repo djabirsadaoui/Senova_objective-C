@@ -15,6 +15,9 @@
 @property (weak, nonatomic) IBOutlet DJSTemperatureView *temperatureView;
 @property (weak, nonatomic) IBOutlet UIImageView *motionImage;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *stateSegement;
+
+- (IBAction)changeState:(UISegmentedControl *)sender;
+
 @property(nonatomic)DJSHttpManager *httpManager;
 @property(nonatomic)DJSApiManager *apiManager;
 @end
